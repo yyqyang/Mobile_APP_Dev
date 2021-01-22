@@ -24,10 +24,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="Initial commit" />
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +47,12 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\yyqya\NUMAD21sp.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +67,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="NUMAD21Sp-YuqingYang.app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\yyqya\AndroidStudioProjects\NUMAD21SpYuqingYang\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -190,25 +208,66 @@
       <option name="project" value="LOCAL" />
       <updated>1611346259202</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial commit">
+      <created>1611346290189</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1611346290189</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <created>1611346747170</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611346747170</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Second commit" />
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="526" y="204" key="#Notifications" timestamp="1611346740354">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="526" y="204" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1611346740354" />
     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1611301411050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -217,10 +276,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="204" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1611345754476" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1611336551314">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1611347157634">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611336551314" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1611347157634" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1611347447984">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611347447984" />
     <state x="477" y="239" key="Github.ShareDialog" timestamp="1611342326830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -257,6 +320,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="471" y="210" key="VCS.EditChangelistDialog/0.0.1280.680@0.0.1280.680" timestamp="1611344044732" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1611346863190">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611346863190" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611346691290">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1611346691290" />
     <state x="298" y="151" key="run.anything.popup" timestamp="1611297476589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
