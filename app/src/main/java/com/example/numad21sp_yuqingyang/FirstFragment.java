@@ -40,7 +40,7 @@ public class FirstFragment extends Fragment {
                 switch (view.getId()){
                     case R.id.buttonA:
                         Toast toastA = Toast.makeText(getActivity().getApplicationContext(),"Pressed:A",Toast.LENGTH_SHORT);
-                        toastA.setGravity(Gravity.CENTER, 0, 0);
+                        toastA.setGravity(Gravity.CENTER, 0, 80);
                         toastA.show();
                         break;
                 }
@@ -52,7 +52,7 @@ public class FirstFragment extends Fragment {
                 switch (view.getId()){
                     case R.id.buttonB:
                         Toast toastB = Toast.makeText(getActivity().getApplicationContext(),"Pressed:B",Toast.LENGTH_SHORT);
-                        toastB.setGravity(Gravity.CENTER, 0, 0);
+                        toastB.setGravity(Gravity.CENTER, 0, 80);
                         toastB.show();
                         break;
                 }
@@ -64,7 +64,7 @@ public class FirstFragment extends Fragment {
                 switch (view.getId()){
                     case R.id.buttonC:
                         Toast toastC = Toast.makeText(getActivity().getApplicationContext(),"Pressed:C",Toast.LENGTH_SHORT);
-                        toastC.setGravity(Gravity.CENTER, 0, 0);
+                        toastC.setGravity(Gravity.CENTER, 0, 80);
                         toastC.show();
                         break;
                 }
@@ -76,7 +76,7 @@ public class FirstFragment extends Fragment {
                 switch (view.getId()){
                     case R.id.buttonD:
                         Toast toastD = Toast.makeText(getActivity().getApplicationContext(),"Pressed:D",Toast.LENGTH_SHORT);
-                        toastD.setGravity(Gravity.CENTER, 0, 0);
+                        toastD.setGravity(Gravity.CENTER, 0, 80);
                         toastD.show();
                         break;
                 }
@@ -88,7 +88,7 @@ public class FirstFragment extends Fragment {
                 switch (view.getId()){
                     case R.id.buttonE:
                         Toast toastE = Toast.makeText(getActivity().getApplicationContext(),"Pressed:E",Toast.LENGTH_SHORT);
-                        toastE.setGravity(Gravity.CENTER, 0, 0);
+                        toastE.setGravity(Gravity.CENTER, 0, 80);
                         toastE.show();
                         break;
                 }
@@ -100,7 +100,7 @@ public class FirstFragment extends Fragment {
                 switch (view.getId()){
                     case R.id.buttonF:
                         Toast toastF = Toast.makeText(getActivity().getApplicationContext(),"Pressed:F",Toast.LENGTH_SHORT);
-                        toastF.setGravity(Gravity.CENTER, 0, 0);
+                        toastF.setGravity(Gravity.CENTER, 0, 80);
                         toastF.show();
                         break;
                 }
