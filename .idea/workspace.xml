@@ -33,8 +33,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="Initial commit">
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="first release commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/FirstFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/FirstFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +49,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_29]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NUMAD21Sp-YuqingYang" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NUMAD21Sp-YuqingYang" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NUMAD21Sp-YuqingYang" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="C:\Users\yyqya\NUMAD21sp.jks" />
@@ -73,9 +111,27 @@
     <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-viewC:/Users/yyqya/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="multi-representation-previewC:/Users/yyqya/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="ExampleUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NUMAD21Sp-YuqingYang.app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.numad21sp_yuqingyang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.numad21sp_yuqingyang" />
+      <option name="MAIN_CLASS_NAME" value="com.example.numad21sp_yuqingyang.ExampleUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -140,6 +196,63 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleInstrumentedT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="NUMAD21Sp-YuqingYang.app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.example.numad21sp_yuqingyang.ExampleInstrumentedTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.ExampleUnitTest" />
+        <item itemvalue="Android Instrumented Tests.ExampleInstrumentedT..." />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\yyqya\AppData\Roaming\Subversion</configuration>
@@ -222,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611346747170</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="first release commit">
+      <created>1611347627785</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611347627785</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -257,21 +377,27 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="first release commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first release commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" key="#Notifications" timestamp="1611346740354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="526" y="204" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1611346740354" />
-    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1611301411050">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1612392125534">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1611301411050" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1612392125534" />
+    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1612387211669">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1612387211669" />
     <state x="204" y="0" key="CommitChangelistDialog2" timestamp="1611345754476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -292,22 +418,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="292" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611342342838" />
-    <state width="1236" height="163" key="GridCell.Tab.0.bottom" timestamp="1611301416721">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1612393858647">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611301416721" />
-    <state width="1236" height="163" key="GridCell.Tab.0.center" timestamp="1611301416720">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612393858647" />
+    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1612393858647">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611301416720" />
-    <state width="1236" height="163" key="GridCell.Tab.0.left" timestamp="1611301416718">
+    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612393858647" />
+    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1612393858646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611301416718" />
-    <state width="1236" height="163" key="GridCell.Tab.0.right" timestamp="1611301416720">
+    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612393858646" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1612393858647">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611301416720" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612393858647" />
+    <state width="1236" height="163" key="GridCell.Tab.1.bottom" timestamp="1612330739547">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612330739547" />
+    <state width="1236" height="163" key="GridCell.Tab.1.center" timestamp="1612330739546">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1612330739546" />
+    <state width="1236" height="163" key="GridCell.Tab.1.left" timestamp="1612330739546">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1612330739546" />
+    <state width="1236" height="163" key="GridCell.Tab.1.right" timestamp="1612330739546">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1236" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1612330739546" />
     <state x="310" y="43" key="RollbackChangesDialog" timestamp="1611346092526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -320,21 +462,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="471" y="210" key="VCS.EditChangelistDialog/0.0.1280.680@0.0.1280.680" timestamp="1611344044732" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1611346863190">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1611347631254">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611346863190" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611347631254" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611346691290">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1611346691290" />
-    <state x="298" y="151" key="run.anything.popup" timestamp="1611297476589">
+    <state x="298" y="151" key="run.anything.popup" timestamp="1612386908634">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="298" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1611297476589" />
+    <state x="298" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1612386908634" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1611337651530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1611337651530" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NUMAD21Sp_YuqingYang$ExampleUnitTest.ic" NAME="ExampleUnitTest Coverage Results" MODIFIED="1612330739249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.numad21sp_yuqingyang.*</FILTER>
+    </SUITE>
   </component>
 </project>
