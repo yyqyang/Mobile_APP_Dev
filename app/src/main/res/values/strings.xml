@@ -11,5 +11,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="name">Yuqing Yang</string>
     <string name="email">yang.yuqin@northeastern.edu</string>
+    <string name="link_collector">Link Collector</string>
 
 </resources>
