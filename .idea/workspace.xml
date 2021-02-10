@@ -33,16 +33,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="second activity created">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/fragment_third.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml" afterDir="false" />
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="add list view in the new activity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -376,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612996453892</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add list view in the new activity">
+      <created>1612999805717</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612999805718</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -420,7 +422,8 @@
     <MESSAGE value="added 6 buttons commit" />
     <MESSAGE value="adjust the view of rotation commit" />
     <MESSAGE value="second activity created" />
-    <option name="LAST_COMMIT_MESSAGE" value="second activity created" />
+    <MESSAGE value="add list view in the new activity" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list view in the new activity" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" key="#Notifications" timestamp="1611346740354">
@@ -455,22 +458,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="292" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611342342838" />
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1612999739836">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1612999954270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612999739836" />
-    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1612999739835">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612999954270" />
+    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1612999954270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612999739835" />
-    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1612999739835">
+    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612999954270" />
+    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1612999954270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612999739835" />
-    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1612999739835">
+    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612999954270" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1612999954270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612999739835" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612999954270" />
     <state width="1236" height="163" key="GridCell.Tab.1.bottom" timestamp="1612330739547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -503,10 +506,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1612394885946" />
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612996424149">
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612999763894">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1612996424149" />
+    <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1612999763894" />
     <state x="298" y="151" key="run.anything.popup" timestamp="1612386908634">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -33,7 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
                 addListItem();
                 Snackbar.make(view, "Item added to list",
                         Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                        .setAction("Undo", undoOnClickListener).show();
             }
         });
 
@@ -56,7 +56,14 @@ public class MainActivity2 extends AppCompatActivity {
         listItems.add(dateformat.format(new Date()));
         adapter.notifyDataSetChanged();
     }
-
-
-
+    View.OnClickListener undoOnClickListener = new
+            View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    listItems.remove(listItems.size() -1);
+                    adapter.notifyDataSetChanged();
+                    Snackbar.make(view, "Item removed", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+            };
 }
