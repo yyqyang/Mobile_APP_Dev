@@ -16,14 +16,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/ic_add_entry" />
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="com.example.numad21sp_yuqingyang.fragment_third"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/add_url" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

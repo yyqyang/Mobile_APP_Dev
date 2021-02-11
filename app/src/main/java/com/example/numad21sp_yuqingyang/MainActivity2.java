@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -19,6 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
     ArrayList<String> listItems = new ArrayList<String>();
     ArrayAdapter<String> adapter;
     private ListView myListView;
+    EditText editText2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,7 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         myListView = findViewById(R.id.listView);
+
         adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1,
                 listItems);
