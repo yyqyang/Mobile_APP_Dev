@@ -56,7 +56,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Uri uri = Uri.parse("https://"+ adapter.getItem(position));
+                Uri uri = Uri.parse("https://"+ adapter.getItem(position).split(":",2)[1]);
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }
