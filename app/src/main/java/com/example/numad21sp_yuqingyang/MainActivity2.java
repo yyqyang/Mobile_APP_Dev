@@ -20,7 +20,7 @@ public class MainActivity2 extends AppCompatActivity {
     ArrayList<String> listItems = new ArrayList<String>();
     ArrayAdapter<String> adapter;
     private ListView myListView;
-    EditText editText2;
+    EditText itemText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +44,7 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         myListView = findViewById(R.id.listView);
-
+        itemText = (EditText) findViewById(R.id.editText2);
         adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1,
                 listItems);
@@ -53,10 +53,9 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void addListItem() {
-        SimpleDateFormat dateformat =
-                new SimpleDateFormat("HH:mm:ss MM/dd/yyyy",
-                        Locale.US);
-        listItems.add(dateformat.format(new Date()));
+
+        listItems.add(itemText.getText().toString());
+        itemText.setText("");
         adapter.notifyDataSetChanged();
     }
     View.OnClickListener undoOnClickListener = new

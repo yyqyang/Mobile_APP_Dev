@@ -33,14 +33,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="add list view in the new activity V2 (fixed the TAB position)">
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="add list view in the new activity V3 (fixed the textview position)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/fragment_third.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_third.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612999805718</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add list view in the new activity V3 (fixed the textview position)">
+      <created>1613018231835</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613018231835</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -427,7 +431,8 @@
     <MESSAGE value="adjust the view of rotation commit" />
     <MESSAGE value="second activity created" />
     <MESSAGE value="add list view in the new activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="add list view in the new activity" />
+    <MESSAGE value="add list view in the new activity V3 (fixed the textview position)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list view in the new activity V3 (fixed the textview position)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" key="#Notifications" timestamp="1611346740354">
@@ -466,22 +471,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="292" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611342342838" />
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1613017653004">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1613018815709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613017653004" />
-    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1613017653003">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
+    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1613018815709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613017653003" />
-    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1613017653003">
+    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
+    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1613018815709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613017653003" />
-    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1613017653004">
+    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1613018815709">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613017653004" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
     <state width="1236" height="163" key="GridCell.Tab.1.bottom" timestamp="1612330739547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
