@@ -33,7 +33,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="add list view in the new activity V3 (fixed the textview position)">
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="add free text to the list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" afterDir="false" />
@@ -443,10 +443,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1612392125534" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613012070207">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613020565403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1613012070207" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1613020565403" />
     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1612387211669">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -471,22 +471,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="292" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611342342838" />
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1613018815709">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1613023280721">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
-    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1613018815709">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613023280721" />
+    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1613023280720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
-    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1613018815709">
+    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613023280720" />
+    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1613023280720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
-    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1613018815709">
+    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613023280720" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1613023280721">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613018815709" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613023280721" />
     <state width="1236" height="163" key="GridCell.Tab.1.bottom" timestamp="1612330739547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -503,10 +503,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1236" height="163" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1612330739546" />
-    <state x="310" y="43" key="RollbackChangesDialog" timestamp="1611346092526">
+    <state x="310" y="43" key="RollbackChangesDialog" timestamp="1613022088449">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="310" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611346092526" />
+    <state x="310" y="43" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1613022088449" />
     <state x="76" y="0" key="SettingsEditor" timestamp="1611343950372">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
