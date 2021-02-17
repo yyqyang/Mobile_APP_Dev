@@ -5,6 +5,7 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -39,9 +40,8 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 switch (view.getId()){
                     case R.id.buttonA:
-                        Toast toastA = Toast.makeText(getActivity().getApplicationContext(),"Pressed:A",Toast.LENGTH_SHORT);
-                        toastA.setGravity(Gravity.CENTER, 0, 80);
-                        toastA.show();
+                        TextView tv = (TextView)getView().findViewById(R.id.textView_pressed);
+                        tv.setText("Pressed:A");
                         break;
                 }
             }
@@ -51,9 +51,8 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 switch (view.getId()){
                     case R.id.buttonB:
-                        Toast toastB = Toast.makeText(getActivity().getApplicationContext(),"Pressed:B",Toast.LENGTH_SHORT);
-                        toastB.setGravity(Gravity.CENTER, 0, 80);
-                        toastB.show();
+                        TextView tv = (TextView)getView().findViewById(R.id.textView_pressed);
+                        tv.setText("Pressed:B");
                         break;
                 }
             }
@@ -63,9 +62,8 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 switch (view.getId()){
                     case R.id.buttonC:
-                        Toast toastC = Toast.makeText(getActivity().getApplicationContext(),"Pressed:C",Toast.LENGTH_SHORT);
-                        toastC.setGravity(Gravity.CENTER, 0, 80);
-                        toastC.show();
+                        TextView tv = (TextView)getView().findViewById(R.id.textView_pressed);
+                        tv.setText("Pressed:C");
                         break;
                 }
             }
@@ -75,9 +73,8 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 switch (view.getId()){
                     case R.id.buttonD:
-                        Toast toastD = Toast.makeText(getActivity().getApplicationContext(),"Pressed:D",Toast.LENGTH_SHORT);
-                        toastD.setGravity(Gravity.CENTER, 0, 80);
-                        toastD.show();
+                        TextView tv = (TextView)getView().findViewById(R.id.textView_pressed);
+                        tv.setText("Pressed:D");
                         break;
                 }
             }
@@ -87,9 +84,8 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 switch (view.getId()){
                     case R.id.buttonE:
-                        Toast toastE = Toast.makeText(getActivity().getApplicationContext(),"Pressed:E",Toast.LENGTH_SHORT);
-                        toastE.setGravity(Gravity.CENTER, 0, 80);
-                        toastE.show();
+                        TextView tv = (TextView)getView().findViewById(R.id.textView_pressed);
+                        tv.setText("Pressed:E");
                         break;
                 }
             }
@@ -99,9 +95,8 @@ public class FirstFragment extends Fragment {
             public void onClick(View view) {
                 switch (view.getId()){
                     case R.id.buttonF:
-                        Toast toastF = Toast.makeText(getActivity().getApplicationContext(),"Pressed:F",Toast.LENGTH_SHORT);
-                        toastF.setGravity(Gravity.CENTER, 0, 80);
-                        toastF.show();
+                        TextView tv = (TextView)getView().findViewById(R.id.textView_pressed);
+                        tv.setText("Pressed:F");
                         break;
                 }
             }

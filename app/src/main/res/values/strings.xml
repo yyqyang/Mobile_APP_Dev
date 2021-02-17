@@ -13,6 +13,6 @@
     <string name="email">yang.yuqin@northeastern.edu</string>
     <string name="link_collector">Link Collector</string>
     <string name="add_url">Name:www.website.com</string>
-
+    <string name="press">Try to press one button</string>
 
 </resources>
