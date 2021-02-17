@@ -14,5 +14,6 @@
     <string name="link_collector">Link Collector</string>
     <string name="add_url">Name:www.website.com</string>
     <string name="press">Try to press one button</string>
+    <string name="location">Location</string>
 
 </resources>
