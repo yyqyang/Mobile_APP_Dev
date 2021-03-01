@@ -2,18 +2,16 @@ package com.example.numad21sp_yuqingyang;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
-
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Button;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
@@ -37,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivity3();
+            }
+        });
+
+        button = (Button) findViewById(R.id.button_web);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openActivity4();
             }
         });
 
@@ -78,6 +84,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openActivity3() {
         Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+
+    public void openActivity4() {
+        Intent intent = new Intent(this, MainActivity4.class);
         startActivity(intent);
     }
 }

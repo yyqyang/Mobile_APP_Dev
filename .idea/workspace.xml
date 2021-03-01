@@ -33,20 +33,18 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="upload rel">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/GetData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetroUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetrofitClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-round/strings.xml" afterDir="false" />
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="button added, class has been created for next step">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/GetData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetroUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetrofitClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +97,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -130,6 +129,9 @@
     <property name="android-custom-viewC:/Users/yyqya/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/RecyclerView-SampleCode" />
     <property name="multi-representation-previewC:/Users/yyqya/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
@@ -447,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613544738064</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="button added, class has been created for next step">
+      <created>1614637839387</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614637839388</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -498,13 +507,18 @@
     <MESSAGE value="change the toast button to text view" />
     <MESSAGE value="Add location activity" />
     <MESSAGE value="tested on physical device" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested on physical device" />
+    <MESSAGE value="button added, class has been created for next step" />
+    <option name="LAST_COMMIT_MESSAGE" value="button added, class has been created for next step" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" key="#Notifications" timestamp="1611346740354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="526" y="204" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1611346740354" />
+    <state x="158" y="87" key="#PSD" timestamp="1614639643660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="158" y="87" key="#PSD/0.0.1280.680@0.0.1280.680" timestamp="1614639643660" />
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1614636239615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -513,14 +527,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="414" y="210" width="453" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1614635383449" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613020565403">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614641847117">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1613020565403" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1614641847117" />
     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1614626972398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1614626972398" />
+    <state x="221" y="96" key="AndroidCreateResourceFileDialog" timestamp="1614639359581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="96" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1614639359581" />
     <state x="204" y="0" key="CommitChangelistDialog2" timestamp="1611345754476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -541,22 +559,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="292" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611342342838" />
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1613541825025">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1614641495396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613541825025" />
-    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1613541825025">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614641495396" />
+    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1614641495395">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613541825025" />
-    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1613541825025">
+    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614641495395" />
+    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1614641495394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613541825025" />
-    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1613541825025">
+    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614641495394" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1614641495396">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613541825025" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614641495396" />
     <state width="1236" height="163" key="GridCell.Tab.1.bottom" timestamp="1612330739547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
