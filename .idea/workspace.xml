@@ -33,9 +33,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="Add location activity">
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="upload rel">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/GetData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetroUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetrofitClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-round/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +94,14 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="C:\Users\yyqya\NUMAD21sp.jks" />
     <option name="KEY_ALIAS" value="key0" />
@@ -118,6 +137,9 @@
       <recent name="com.example.numad21sp_yuqingyang" />
     </key>
     <key name="android.template.1214496278">
+      <recent name="com.example.numad21sp_yuqingyang" />
+    </key>
+    <key name="android.template.1755327366">
       <recent name="com.example.numad21sp_yuqingyang" />
     </key>
   </component>
@@ -418,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613541969496</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="tested on physical device">
+      <created>1613544738064</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613544738064</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -468,25 +497,30 @@
     <MESSAGE value="add name to the URL" />
     <MESSAGE value="change the toast button to text view" />
     <MESSAGE value="Add location activity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add location activity" />
+    <MESSAGE value="tested on physical device" />
+    <option name="LAST_COMMIT_MESSAGE" value="tested on physical device" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" key="#Notifications" timestamp="1611346740354">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="526" y="204" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1611346740354" />
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1612392125534">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1614636239615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1612392125534" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1614636239615" />
+    <state x="414" y="210" width="453" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614635383449">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="414" y="210" width="453" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1614635383449" />
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613020565403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1613020565403" />
-    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1612387211669">
+    <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1614626972398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1612387211669" />
+    <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1614626972398" />
     <state x="204" y="0" key="CommitChangelistDialog2" timestamp="1611345754476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -551,10 +585,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="471" y="210" key="VCS.EditChangelistDialog/0.0.1280.680@0.0.1280.680" timestamp="1611344044732" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1613025105788">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1613544871368">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613025105788" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1613544871368" />
     <state x="450" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612999763894">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
