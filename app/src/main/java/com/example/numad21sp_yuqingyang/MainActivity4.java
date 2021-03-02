@@ -1,11 +1,11 @@
 package com.example.numad21sp_yuqingyang;
 
-import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,6 +33,7 @@ public class MainActivity4 extends AppCompatActivity {
 
         mURLEditText = (EditText)findViewById(R.id.URL_editText);
         mTitleTextView = (TextView)findViewById(R.id.result_textview);
+
     }
     public void callWebserviceButtonHandler(View view){
         PingWebServiceTask task = new PingWebServiceTask();
@@ -41,12 +42,11 @@ public class MainActivity4 extends AppCompatActivity {
 
 
     private class PingWebServiceTask extends AsyncTask<String,Integer,String[]> {
+        ProgressBar pb = (ProgressBar) findViewById(R.id.pbLoading);
 
-        ProgressDialog progressDialog;
         protected void onPreExecute() {
             super.onPreExecute();
-            progressDialog = ProgressDialog.show(MainActivity4.this, "Downloading", "Making progress..Please Wait", true);
-
+            pb.setVisibility(ProgressBar.VISIBLE);
         }
 
         @Override
@@ -69,7 +69,7 @@ public class MainActivity4 extends AppCompatActivity {
                 String jBody = jObject.getString("body");
                 results[0] =jtitle;
                 results[1] =jBody;
-                progressDialog.dismiss();
+
                 return results;
 
             } catch (MalformedURLException e){
@@ -93,6 +93,7 @@ public class MainActivity4 extends AppCompatActivity {
         @Override
         protected void onPostExecute(String... s){
             super.onPostExecute(s);
+            pb.setVisibility(View.GONE);
             TextView result_view =(TextView)findViewById(R.id.result_textview);
             result_view.setText(s[0]);
         }

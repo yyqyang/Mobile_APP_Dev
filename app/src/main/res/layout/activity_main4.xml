@@ -38,6 +38,16 @@
         app:layout_constraintTop_toBottomOf="@+id/URL_editText"
         app:layout_constraintVertical_bias="0.292" />
 
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button_web"
         android:layout_width="wrap_content"
