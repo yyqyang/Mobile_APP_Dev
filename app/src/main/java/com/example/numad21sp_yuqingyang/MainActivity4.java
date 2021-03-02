@@ -1,5 +1,6 @@
 package com.example.numad21sp_yuqingyang;
 
+import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -40,13 +41,19 @@ public class MainActivity4 extends AppCompatActivity {
 
 
     private class PingWebServiceTask extends AsyncTask<String,Integer,String[]> {
-        @Override
-        protected void onProgressUpdate(Integer... values){
-            Log.i(TAG, "Making progress...");}
+
+        ProgressDialog progressDialog;
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressDialog = ProgressDialog.show(MainActivity4.this, "Downloading", "Making progress..Please Wait", true);
+
+        }
+
         @Override
         protected String[] doInBackground(String... params){
             String[] results= new String[2];
             URL url= null;
+
             try{
                 url= new URL(params[0]);
                 HttpURLConnection conn=(HttpURLConnection) url.openConnection();
@@ -62,6 +69,7 @@ public class MainActivity4 extends AppCompatActivity {
                 String jBody = jObject.getString("body");
                 results[0] =jtitle;
                 results[1] =jBody;
+                progressDialog.dismiss();
                 return results;
 
             } catch (MalformedURLException e){
@@ -73,8 +81,8 @@ public class MainActivity4 extends AppCompatActivity {
             }catch (IOException e){
                 Log.e(TAG,"IOException");
                 e.printStackTrace();
-            }catch (JSONException e){
-                Log.e(TAG,"JSONException");
+            }catch (JSONException e) {
+                Log.e(TAG, "JSONException");
                 e.printStackTrace();
             }
             results[0] ="Something went wrong";
