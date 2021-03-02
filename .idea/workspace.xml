@@ -33,17 +33,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="button added, class has been created for next step">
+    <list default="true" id="b7bd5450-16a9-4cf8-a36a-355a3e5c0dfa" name="Default Changelist" comment="reset only with new acitivity button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/GetData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity4.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MainActivity4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/MyAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetroUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/numad21sp_yuqingyang/RetrofitClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main4.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,9 +92,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -139,6 +136,9 @@
       <recent name="com.example.numad21sp_yuqingyang" />
     </key>
     <key name="android.template.1214496278">
+      <recent name="com.example.numad21sp_yuqingyang" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.example.numad21sp_yuqingyang" />
     </key>
     <key name="android.template.1755327366">
@@ -456,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614637839388</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="reset only with new acitivity button">
+      <created>1614642592922</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1614642592922</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -508,7 +515,8 @@
     <MESSAGE value="Add location activity" />
     <MESSAGE value="tested on physical device" />
     <MESSAGE value="button added, class has been created for next step" />
-    <option name="LAST_COMMIT_MESSAGE" value="button added, class has been created for next step" />
+    <MESSAGE value="reset only with new acitivity button" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset only with new acitivity button" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="204" key="#Notifications" timestamp="1611346740354">
@@ -519,26 +527,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="158" y="87" key="#PSD/0.0.1280.680@0.0.1280.680" timestamp="1614639643660" />
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1614636239615">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1614663457995">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1614636239615" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1614663457995" />
     <state x="414" y="210" width="453" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614635383449">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="414" y="210" width="453" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1614635383449" />
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614641847117">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614661687538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1614641847117" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1614661687538" />
     <state x="93" y="93" width="1095" height="495" key="AVDManager" timestamp="1614626972398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="AVDManager/0.0.1280.680@0.0.1280.680" timestamp="1614626972398" />
-    <state x="221" y="96" key="AndroidCreateResourceFileDialog" timestamp="1614639359581">
+    <state x="221" y="96" key="AndroidCreateResourceFileDialog" timestamp="1614650831788">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="221" y="96" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1614639359581" />
+    <state x="221" y="96" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1614650831788" />
     <state x="204" y="0" key="CommitChangelistDialog2" timestamp="1611345754476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -559,22 +567,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="292" y="46" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1611342342838" />
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1614641495396">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom" timestamp="1614652845219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614641495396" />
-    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1614641495395">
+    <state width="1236" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1614652845219" />
+    <state width="1236" height="162" key="GridCell.Tab.0.center" timestamp="1614652845219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614641495395" />
-    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1614641495394">
+    <state width="1236" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1614652845219" />
+    <state width="1236" height="162" key="GridCell.Tab.0.left" timestamp="1614652845219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614641495394" />
-    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1614641495396">
+    <state width="1236" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1614652845219" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right" timestamp="1614652845219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614641495396" />
+    <state width="1236" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1614652845219" />
     <state width="1236" height="163" key="GridCell.Tab.1.bottom" timestamp="1612330739547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -615,10 +623,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="298" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1612386908634" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1612994994847">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1614646750720">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1612994994847" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1614646750720" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NUMAD21Sp_YuqingYang$ExampleUnitTest.ic" NAME="ExampleUnitTest Coverage Results" MODIFIED="1612330739249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
